@@ -1,0 +1,10 @@
+.nosotros{
+	display: flex;
+	flex-direction:column;
+	h4{ font-size: 30px; font-family: sans-serif;}
+}
+.nosotros--{display: flex;
+            flex-direction:row;
+            img{ width: 50%;}
+            p{width: 50%; font-size: 25px; font-family: sans-serif;}
+}
