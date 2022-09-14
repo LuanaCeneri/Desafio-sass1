@@ -10,12 +10,12 @@
 	grid-template-columns:33% 33% 33%;
 	grid-template-rows:auto auto auto auto auto;
 }
-.title1{grid-area: title1; font-size: 40px; text-align: center; }
-.title2{grid-area:title2; font-size: 20px; text-align: center;}
+.title1{grid-area: title1; font-family:map-get($style-title,letra); font-size: map-get($style-title,Sfont);}
+.title2{grid-area:title2; @include fonts(arial,22px,center);}
 .img1{grid-area:img1;}
 .img2{grid-area:img2;}
 .img3{grid-area:img3;}
-.title3{grid-area:title3; font-size:20px ; text-align: center;}
+.title3{grid-area:title3; @include fonts(arial,22px,center); }
 .img4{grid-area:img4;}
 .img5{grid-area:img5;}
 .img6{grid-area:img6;}

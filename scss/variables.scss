@@ -1,0 +1,16 @@
+/*VARIABLES*/
+$color-bg:#bab7b1;
+$fbold:bold;
+$style-title:(
+    letra:arial,
+    Sfont:40px
+	);
+$subtitle:(
+	Size:15px,
+	letras:arial
+	);
+@mixin fonts($letra,$size,$text){
+	font-family:$letra;
+	font-size: $size;
+	text-align: $text;
+}

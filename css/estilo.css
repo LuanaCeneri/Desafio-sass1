@@ -1,3 +1,4 @@
+/*VARIABLES*/
 header {
   display: flex;
   background: linear-gradient(to right, white, #bab7b1); }
@@ -13,23 +14,25 @@ header {
         margin: 10px; }
         header nav ul li a {
           text-decoration: none;
-          font-family: sans-serif;
+          font-family: arial;
+          font-size: 15px;
+          font-weight: bold;
           color: black; }
           header nav ul li a:hover {
-            font-size: 20px; }
+            font-size: 17px; }
 
 main {
   display: flex;
   justify-content: space-around;
-  margin-top: 7px; }
+  margin-top: 10px; }
   main .videomain {
     width: 40%;
     margin: 2%; }
   main p {
     width: 40%;
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 20px; }
+    font-family: arial;
+    font-size: 20px;
+    text-align: center; }
 
 .gridproducto {
   display: grid;
@@ -39,12 +42,13 @@ main {
 
 .title1 {
   grid-area: title1;
-  font-size: 40px;
-  text-align: center; }
+  font-family: arial;
+  font-size: 40px; }
 
 .title2 {
   grid-area: title2;
-  font-size: 20px;
+  font-family: arial;
+  font-size: 22px;
   text-align: center; }
 
 .img1 {
@@ -58,7 +62,8 @@ main {
 
 .title3 {
   grid-area: title3;
-  font-size: 20px;
+  font-family: arial;
+  font-size: 22px;
   text-align: center; }
 
 .img4 {
@@ -70,51 +75,51 @@ main {
 .img6 {
   grid-area: img6; }
 
-.nosotros {
+.nosotros, .nosotros-- {
   display: flex;
   flex-direction: column; }
-  .nosotros h4 {
-    font-size: 30px;
-    font-family: sans-serif; }
+  .nosotros h4, .nosotros-- h4 {
+    font-family: arial;
+    font-size: 40px; }
 
 .nosotros-- {
-  display: flex;
   flex-direction: row; }
   .nosotros-- img {
     width: 50%; }
   .nosotros-- p {
     width: 50%;
-    font-size: 25px;
-    font-family: sans-serif; }
+    font-family: arial;
+    font-size: 20px;
+    text-align: center; }
 
 .venta {
   display: flex;
   flex-direction: column; }
   .venta h4 {
-    font-family: sans-serif;
-    font-size: 30px; }
-
-.venta-- {
-  display: flex;
-  flex-direction: row; }
-  .venta-- img {
-    width: 50%; }
-  .venta-- p {
-    width: 50%;
-    font-size: 25px;
-    font-family: sans-serif; }
+    font-family: arial;
+    font-size: 40px; }
+  .venta iframe {
+    width: 100%; }
+  .venta p {
+    font-family: arial;
+    font-size: 20px;
+    text-align: none; }
 
 .contacto {
   display: flex;
   flex-direction: column; }
   .contacto h4 {
-    font-family: sans-serif;
-    font-size: 30px; }
+    font-family: arial;
+    font-size: 40px; }
 
 .contacto-- {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: arial;
+  font-size: 20px;
+  text-align: none; }
   .contacto-- form {
     border: solid black;
     text-align: center;
@@ -124,5 +129,5 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border-top: solid black;
+  border-top: 2px solid black;
   align-items: center; }

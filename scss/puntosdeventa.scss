@@ -1,12 +1,11 @@
 .venta{
 	display:flex;
 	flex-direction:column;
-	h4{ font-family: sans-serif;
-		font-size: 30px;}
-}
-.venta--{ 
-          display:flex;
-          flex-direction:row;
-          img{ width: 50%;}
-          p{ width: 50%; font-size:25px; font-family: sans-serif; }
+	h4{ font-family: map-get($style-title,letra);
+		font-size: map-get($style-title,Sfont);
+	}
+	iframe{ width: 100%;}
+	p{
+		@include fonts(arial,20px,none);
+	}
 }

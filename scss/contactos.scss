@@ -1,14 +1,16 @@
 .contacto{ display: flex;
 	       flex-direction:column;
            h4{
-              font-family: sans-serif;
-              font-size: 30px;
+              font-family: map-get($style-title,letra);
+		      font-size: map-get($style-title,Sfont);
            }
        }
 
 .contacto--{display:flex;
 flex-direction:row;
 justify-content: space-evenly;
+align-items: center ;
+@include fonts(arial,20px,none);
 form{ border: solid black; text-align: center; align-self:center;}
 
 }       
