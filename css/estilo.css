@@ -130,4 +130,5 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   border-top: 2px solid black;
-  align-items: center; }
+  align-items: center;
+  background: linear-gradient(to left, white, #bab7b1); }
