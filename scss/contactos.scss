@@ -14,3 +14,13 @@ align-items: center ;
 form{ border: solid black; text-align: center; align-self:center;}
 
 }       
+@media only screen and (max-width:768px){
+	.contacto{ h4{ @include fonts(arial,20px,center);}
+    
+                 }
+
+	.contacto--{
+		@include fonts(arial,13px,center);
+		flex-direction:column;
+	}
+}

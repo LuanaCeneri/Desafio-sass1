@@ -13,3 +13,11 @@
              @include fonts(arial,20px,center);
             }
 }
+@media only screen and (max-width:768px){
+  .nosotros{ h4{ width: 100%; @include fonts(arial,20px,center); }}
+    .nosotros--{ 
+      flex-direction:column;
+      img{width: 100%;}
+      p{width:100%; @include fonts(arial,15px,center); margin:1px;}
+    }
+}

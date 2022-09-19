@@ -9,3 +9,10 @@
 		@include fonts(arial,20px,none);
 	}
 }
+@media only screen and (max-width:768px){
+	.venta{
+		h4{ @include fonts(arial,20px,center);}
+		iframe{width: 95%;}
+		p{width: 100%; @include fonts(arial,15px,center);}
+	}
+}
