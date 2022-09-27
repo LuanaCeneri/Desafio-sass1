@@ -9,6 +9,7 @@
 	;
 	grid-template-columns:33% 33% 33%;
 	grid-template-rows:auto auto auto auto auto;
+    justify-content:space-between;
 }
 .title1{grid-area: title1; font-family:map-get($style-title,letra); font-size: map-get($style-title,Sfont);}
 .title2{grid-area:title2; @include fonts(arial,22px,center);}
@@ -46,4 +47,13 @@
 .img5{grid-area:img5;}
 .img6{grid-area:img6;}
 .img1 img,.img2 img,.img3 img,.img4 img,.img5 img,.img6 img{ width:100%; margin:1px;}
+}
+@media screen and (min-width: 769px) and (max-width: 1023px){
+    .gridproducto{ justify-content: space-between;}
+ .img1 img,.img2 img,.img3 img,.img4 img,.img5 img,.img6 img{ width:100%; margin:2px;}
+
+}
+@media screen and (min-width:1024px) {
+    .gridproducto{ justify-content: space-between;}
+ .img1 img,.img2 img,.img3 img,.img4 img,.img5 img,.img6 img{ width:100%; margin:2px;}
 }

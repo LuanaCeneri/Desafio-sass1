@@ -21,3 +21,10 @@
       p{width:100%; @include fonts(arial,15px,center); margin:1px;}
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .nosotros--{
+            img{ width: 50%;}
+            p{width: 50%;} 
+        
+        }
+}
