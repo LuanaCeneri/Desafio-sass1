@@ -1,3 +1,2 @@
-Cambie los titulos de todas las paginas con su correspondiente seccion y el nombre de la pagina.
-Agrege variables,map-map-get,extend y mixin que se encuentran en su mayoria en los tipos de fuentes.
-Modifique imagenes para que pesen menos.
+Piccola es una pagina dedicada a la elaboracion y venta de productos 100% artesanales. Su principal producto son las velas aromaticas/ecologicas producidas con cera de soja aparte poseé productos de decoracion como cortinas de macrame, espejos con macrame y adornos mixtos hechos con macrame.
+-Dependencias usadas en este proyecto: Nodemon,sass,bootstrap y libreria:(https://michalsnik.github.io/aos/). 
